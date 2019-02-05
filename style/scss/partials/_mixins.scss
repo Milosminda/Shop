@@ -1,0 +1,42 @@
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	   -moz-border-radius: $radius;
+	    -ms-border-radius: $radius;
+	     -o-border-radius: $radius;
+	        border-radius: $radius;
+}
+@mixin rotate($degree) {
+	-webkit-transform: rotate($degree);
+	   -moz-transform: rotate($degree);
+	    -ms-transform: rotate($degree);
+	     -o-transform: rotate($degree);
+	        transform: rotate($degree);
+}
+@mixin translateY($translate) {
+	-webkit-transform: translateY($translate);
+	   -moz-transform: translateY($translate);
+	    -ms-transform: translateY($translate);
+	     -o-transform: translateY($translate);
+	        transform: translateY($translate);
+}
+@mixin transition($transition) {
+	-webkit-transition: $transition;
+	   -moz-transition: $transition;
+	    -ms-transition: $transition;
+	     -o-transition: $transition;
+	        transition: $transition;
+}
+@mixin transition-property($property) {
+	-webkit-transition: $property;
+	   -moz-transition: $property;
+	    -ms-transition: $property;
+	     -o-transition: $property;
+	        transition: $property;
+}
+@mixin transition-duration($duration) {
+	-webkit-transition: $duration;
+	   -moz-transition: $duration;
+	    -ms-transition: $duration;
+	     -o-transition: $duration;
+	        transition: $duration;
+}
